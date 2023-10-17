@@ -1,5 +1,5 @@
 {
-  "homepage": "http://bpnpdl.me/Quizapp_frontend",
+  "homepage": "http://bpnpdl.me/quizkhel/",
   "name": "quizapp_frontend",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeloy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
